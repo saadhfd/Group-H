@@ -1,0 +1,88 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    width: 80%;
+    height: 95vh;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+header nav {
+    width: 95%;
+    height: 7%;
+    border : 1px solid #000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    padding : 3px 15px;
+}
+
+/* changing the background color of the last child of the list which is register */
+header nav ul li:nth-last-child(1){
+
+    background : black;
+    border-radius: 20px;
+    padding : 5px 20px;
+
+}
+/* changing the color of the anchor tag of the last child of the list - register */
+header nav ul li:nth-last-child(1) a{
+
+   color : #fff
+}
+/*adding the transition effect of 3 seconds to the anchor tag*/
+header nav ul li a{
+    text-decoration: none;
+    color: #121213;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+/*adding the hover effects on anchors tag*/
+header nav ul li a:hover {
+    color : grey;
+}
+
+/* added three dots to use in the mobile devices and all the devices */
+header nav .bi-three-dots{
+    display: none;
+}
+/* to check how much spece contect is taking */
+header .content{
+    position : relative;
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+
+header .content::before{
+    content : '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background: url('/Images/background1.png')no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
