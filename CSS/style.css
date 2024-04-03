@@ -86,3 +86,33 @@ header .content::before{
     border-radius: 10px;
     z-index: -1;
 }
+
+/*gallery part*/
+div.photo:hover {
+    border: 1px solid white;
+  }
+  
+  div.photo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    width: 80%;
+    margin: auto;
+  }
+  .gallery {
+    padding: 5px;
+    float: left;
+    width: 25%;
+    
+  }
