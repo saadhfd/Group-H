@@ -109,6 +109,7 @@ div.photo:hover {
   .row {
     width: 80%;
     margin: auto;
+    display: flex;
   }
   .gallery {
     padding: 5px;
