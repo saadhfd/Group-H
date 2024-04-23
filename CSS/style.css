@@ -117,3 +117,13 @@ div.photo:hover {
     width: 25%;
     
   }
+footer {
+    background-color: #5675b6;
+    padding: 10px;
+    text-align: center;
+    display:flex;
+}
+  footer p {
+    color: white;
+    text-align: bottom;
+  }
