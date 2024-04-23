@@ -1,0 +1,3 @@
+### Get Posts
+
+GET http://localhost:3001
