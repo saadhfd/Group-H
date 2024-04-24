@@ -1,6 +1,6 @@
 
 import { BACKEND_URL } from '../config.js'
-import { Post } from './Post.js'
+import { Post } from './Post.js'
 import { Comment } from './Comment.js'
 
 class Posts {
