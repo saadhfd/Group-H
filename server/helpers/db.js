@@ -18,7 +18,7 @@ const openDb = () => {
     host: "localhost",
     database: "blog",
     password: "root",
-    port: 5435
+    port: 5432
   })
   return pool
 }
