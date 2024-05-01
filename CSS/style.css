@@ -58,16 +58,18 @@ article span a:hover {
 
 footer {
   background: linear-gradient(to right, #6e45e2, #88d3ce);
+  font-weight: 80%;
   display: flex;
   justify-content: center;
   position: fixed;
   bottom: 0;
   left:0;
   width: 100%;
+  
 }
 
 footer p {
-  color: var(--light-color) 
+  color: #fff;
 }
 
 
