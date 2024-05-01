@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ZVSWvJ+O27Ou5X8y9IrHtZsBqPTTnfg5wDA5uAjTVW+zNuUHV8jLmiyYCFXjw1ygulBNKN+s2NssWsqoW7oF4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link href="./css/style.css" rel="stylesheet">
   <link rel="icon" href="Images/Nordic favicon.png" type="image/x-icon">
   <title>Contact Us</title>
 </head>
 <body>
   <header><h1>Contact US</h1></header>
-  <div class="container">
+  <!-- <div class="container">
     <div class="content">
       <div class="left-side">
         <div class="address details">
@@ -41,6 +43,7 @@
           Whatever your needs, we are here to help. If you have any questions about our packages or services, or want to customise a tour, please do not hesitate to contact us.
           .</p>
       <form action="#">
+
         <div class="input-box">
           <input type="text" placeholder="Enter your name">
         </div>
@@ -53,7 +56,7 @@
         <div class="button">
           <input type="button" value="Send Now" >
         </div>
-      </form>
+      </form> -->
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -80,13 +83,64 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <p>This is contact us page</p>
+  <!-- section added -->
+  <section class ="contact"> 
+    <div class="content">
+      <!-- <div class="row"> -->
+        <!-- <div class="col-md-8"> -->
+          <p></p>
+          <div class = "content">
+              <h2></h2>
+              <p> </p>
+          </div>
+          <div class ="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Oulu University of Applied Sciences,<br>Yliopistokatu 9,<br>90570 Oulu</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+358 20 611 0200</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>Students@oamk.fi</p>
+        </div>
       </div>
+      <div class="contactForm">
+        <form>
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Full name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Email</span>
+              </div>
+            <div class="inputBox">
+              <textarea required="required"></textarea>
+              <span>Type your Message...</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Send">
+                
+                </div>
+        </form>
+          </div>
+        </div>
+  </section>
+  
       <aside class="col-md-4">
-        SIDEBAR
+        
       </aside>
     </div>
   </div>
