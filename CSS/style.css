@@ -178,3 +178,14 @@ footer p {
   background: #40D3DC;
   color: white;
 }
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1557683316-973673baf926');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
